@@ -11,7 +11,7 @@ services:
       - "3000:3000"  
     environment:
       DATABASE_URL: ${DATABASE_URL}
-      SESSION_ID: ${SESSION_ID}
+      SESSION_ID: Xlicon_7f23553c-49be-4ede-8b4a-93b0203bfe53
       REMOVEBG_KEY: ${REMOVEBG_KEY}
       PREFIX: ${PREFIX}
   redis:
